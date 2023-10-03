@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    border: 1px solid#ccc;
+    display: flex;
+}
+.box{
+    height: 150px;
+}
+.item1{
+    background-color: violet;
+    flex-grow: 1;
+
+}
+.item2{
+    background-color:blueviolet;
+    flex-grow: 2;
+}
+.item3{
+    background-color:blue ;
+    flex-grow: 4;
+
+}
+.item4{
+    background-color: rgb(68, 171, 206);
+    flex-grow: 6;
+}
